@@ -22,10 +22,10 @@ Model Evaluation and Comparision using Scores:
 - ROC-AUC: Measures the trade-off between true positive rate and false positive rate.
 
 Results:
-- Best Model: SVM achieved the highest F1-Score and ROC-AUC, balancing precision and recall effectively.
-- Logistic Regression: Performs well but slightly lags in recall compared to SVM.
-- Decision Trees: Prone to overfitting, less robust in generalization.
-- KNN: Performance drops likely due to sensitivity to imbalanced data and lack of feature scaling.
+- Best Model: Logistic Regression achieved the highest accuracy and ROC-AUC, balancing precision and recall effectively.
+- SVM: Performs well with similar scores to Logistic Regression.
+- Decision Trees: Prone to overfitting, if no max depth specified.
+- KNN: Performance drops likely due to sensitivity to imbalanced data.
 
 Actionable Insights:
 - Improve Marketing Campaigns: Focus on high-duration contacts and specific job types as positively correlated with subscriptions
